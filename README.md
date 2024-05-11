@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Node version
+
+Make sure to use 20.9.0 as the node version when running this angular project, as 20.9.0 is the most recent supported version compatible with angular.
