@@ -10,8 +10,8 @@ describe('UserLoginFormComponent', () => {
     await TestBed.configureTestingModule({
       imports: [UserLoginFormComponent]
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(UserLoginFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

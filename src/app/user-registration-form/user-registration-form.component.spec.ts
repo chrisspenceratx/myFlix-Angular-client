@@ -6,12 +6,10 @@ describe('UserRegistrationFormComponent', () => {
   let component: UserRegistrationFormComponent;
   let fixture: ComponentFixture<UserRegistrationFormComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      imports: [UserRegistrationFormComponent]
-    })
-    .compileComponents();
-    
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [UserRegistrationFormComponent]
+    });
     fixture = TestBed.createComponent(UserRegistrationFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
