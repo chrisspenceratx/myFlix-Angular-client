@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -35,6 +35,7 @@ import { UserLoginFormComponent } from './user-login-form/user-login-form.compon
         MatSnackBarModule,
         FormsModule
     ],
+    schemas: [CUSTOM_ELEMENTS_SCHEMA],
     providers: [],
     bootstrap: [AppComponent]
 })
